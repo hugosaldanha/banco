@@ -1,6 +1,6 @@
--- MySQL dump 10.13  Distrib 8.0.17, for Win64 (x86_64)
+-- MySQL dump 10.13  Distrib 8.0.18, for Win64 (x86_64)
 --
--- Host: localhost    Database: projeto
+-- Host: 127.0.0.1    Database: projeto
 -- ------------------------------------------------------
 -- Server version	8.0.17
 
@@ -42,7 +42,7 @@ CREATE TABLE `mercadoria` (
 
 LOCK TABLES `mercadoria` WRITE;
 /*!40000 ALTER TABLE `mercadoria` DISABLE KEYS */;
-INSERT INTO `mercadoria` VALUES (1,'pamonha','Pamonha','O5',45.65,'2001-01-14',1,'imagem',NULL),(2,'chocolate','chocolate','O6',45.65,'2001-01-14',0,'imagem',NULL),(3,'bis','bis','O7',45.65,'2018-01-14',1,'imagem',NULL),(4,'pizza','pizza','O8',45.65,'2018-01-14',1,'imagem',NULL),(5,'coxinha','coxinha','O9',45.65,'2018-05-06',1,'imagem',NULL),(6,'bala','bala','10',45.65,'2001-01-14',1,'imagem',NULL),(7,'coca-cola','coca-cola','11',45.65,'2001-01-14',1,'imagem',NULL),(8,'Dolly','Dolly','12',45.65,'2001-01-14',1,'imagem',NULL),(9,'Barra','Barra','13',45.65,'2001-01-14',1,'imagem',NULL),(10,'Morango','Morango','14',45.65,'2001-01-14',1,'imagem',NULL),(11,'Bolo','Bolo','15',45.65,'2001-01-14',1,'imagem',NULL),(12,'Pão','Pão','16',45.65,'2018-09-05',1,'imagem',NULL),(13,'Pão','Pão','16',45.65,'2018-09-05',1,'imagem',1),(14,'Torta','Torta','2',4.65,'2018-09-05',1,'imagem',0),(15,'Queijo','Queijo','16',45.65,'2018-09-05',1,'imagem',1);
+INSERT INTO `mercadoria` VALUES (1,'pamonha','Pamonha','un',45.65,'2001-01-14',1,'imagem',NULL),(2,'chocolate','chocolate','un',45.65,'2001-01-14',0,'imagem',NULL),(3,'bis','bis','un',45.65,'2018-01-14',1,'imagem',NULL),(4,'pizza','pizza','un',45.65,'2018-01-14',1,'imagem',NULL),(5,'coxinha','coxinha','un',45.65,'2018-05-06',1,'imagem',NULL),(6,'bala','bala','pc',45.65,'2001-01-14',1,'imagem',NULL),(7,'coca-cola','coca-cola','un',45.65,'2001-01-14',1,'imagem',NULL),(8,'Dolly','Dolly','un',45.65,'2001-01-14',1,'imagem',NULL),(9,'Barra','Barra','un',45.65,'2001-01-14',1,'imagem',NULL),(10,'Morango','Morango','pc',45.65,'2001-01-14',1,'imagem',NULL),(11,'Bolo','Bolo','un',45.65,'2001-01-14',1,'imagem',NULL),(12,'Pão','Pão','un',45.65,'2018-09-05',1,'imagem',NULL),(13,'Pão','Pão','un',45.65,'2018-09-05',1,'imagem',1),(14,'Torta','Torta','un',4.65,'2018-09-05',1,'imagem',0),(15,'Queijo','Queijo','un',45.65,'2018-09-05',1,'imagem',1);
 /*!40000 ALTER TABLE `mercadoria` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -113,4 +113,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-11-26 21:32:58
+-- Dump completed on 2019-12-01 17:53:27
